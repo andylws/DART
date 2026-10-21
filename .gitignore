@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+/data/
+/data_cache/
+/ckpt/
+/results/
+.ipynb_checkpoints/
+.vscode/
+.idea/

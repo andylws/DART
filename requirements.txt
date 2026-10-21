@@ -1,0 +1,15 @@
+torch>=2.0
+torchvision>=0.15
+numpy<2
+scipy
+scikit-learn
+pillow
+tqdm
+transformers          # ViT-Tiny / Swin-T backbones
+git+https://github.com/RobustBench/robustbench.git   # WRN-40-2 (AugMix), CIFAR-100-C loader
+ftfy                  # CLIP tokenizer
+regex                 # CLIP tokenizer
+# tools/make_ood_c.py only
+scikit-image
+opencv-python
+Wand
