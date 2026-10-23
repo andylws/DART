@@ -35,6 +35,7 @@ conda create -n dart python=3.9 -y && conda activate dart
 pip install -r requirements.txt
 ```
 
+Corruption dataset generation: 
 `tools/make_ood_c.py` also needs ImageMagick for the motion-blur and snow corruptions (`apt install libmagickwand-dev`).
 
 ## Running
